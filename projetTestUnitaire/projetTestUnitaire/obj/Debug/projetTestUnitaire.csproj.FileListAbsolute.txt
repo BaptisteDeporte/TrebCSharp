@@ -1,0 +1,7 @@
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\bin\Debug\projetTestUnitaire.exe.config
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\bin\Debug\projetTestUnitaire.exe
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\bin\Debug\projetTestUnitaire.pdb
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\obj\Debug\projetTestUnitaire.csprojAssemblyReference.cache
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\obj\Debug\projetTestUnitaire.csproj.CoreCompileInputs.cache
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\obj\Debug\projetTestUnitaire.exe
+C:\Users\fauco\Desktop\TestC#\projetTestCsharp\projetTestUnitaire\projetTestUnitaire\obj\Debug\projetTestUnitaire.pdb
