@@ -17,48 +17,56 @@ namespace projetTestUnitaire
             Trigger t = new Trigger();
             Rope r = new Rope();
 
-            if (s.verifVivant() == true)
+            try
             {
-                s.LoadTheRock();
+                if (s.verifVivant() == true)
+                {
+                    s.LoadTheRock();
+                }
+                else
+                {
+                    throw new BrokenException("spoon");
+                }
+                if (b.verifVivant() == true)
+                {
+                    b.StopArm();
+                }
+                else
+                {
+                    throw new BrokenException("beam");
+                }
+                if (a.verifVivant() == true)
+                {
+                    a.Move();
+                    a.LaunchSpoon();
+                }
+                else
+                {
+                    throw new BrokenException("arm");
+                }
+                if (t.verifVivant() == true)
+                {
+                    t.Fire();
+                }
+                else
+                {
+                    throw new BrokenException("trigger");
+                }
+                if (r.verifVivant() == true)
+                {
+                    r.LowerSpoon();
+                }
+                else
+                {
+                    throw new BrokenException("rope");
+                }
             }
-            else
+            catch(BrokenException Be)
             {
-                //throw new BrokenException("spoon");
-                Console.WriteLine("la cuillère est cassé !");
+                Console.WriteLine(Be.Message);
             }
-            if (b.verifVivant() == true)
-            {
-                b.StopArm();
-            }
-            else
-            {
-                Console.WriteLine("la beam est cassé !");
-            }
-            if (a.verifVivant() == true)
-            {
-                a.Move();
-                a.LaunchSpoon();
-            }
-            else
-            {
-                Console.WriteLine("le bras est cassé !");
-            }
-            if (t.verifVivant() == true)
-            {
-                t.Fire();
-            }
-            else
-            {
-                Console.WriteLine("le trigger est cassé !");
-            }
-            if (r.verifVivant() == true)
-            {
-                r.LowerSpoon();
-            }
-            else
-            {
-                Console.WriteLine("la corde est cassé !");
-            }
+            
+            
         }
 
     }

@@ -23,7 +23,7 @@ namespace projetTestUnitaire
         int pv;
         public void RecupLifePoint()
         {
-            pv = 100;
+            pv = 00;
         }
         public bool verifVivant()
         {
